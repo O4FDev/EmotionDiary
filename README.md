@@ -14,6 +14,14 @@ To install tkinter simply run the command `pip3 install tk`
 
 Using the console cd yourself through version, 4, then run `python3 -m Diary.py`. 
 
+*Note that if you get an error using version 4 like this:* 
+
+> File "Diary.py", line 22, in descriptionInputHandler
+>    labelText = str('mood = ' + mood + '. Description = ' + desc)
+>TypeError: can only concatenate str (not "StringVar") to str
+
+*Please use version 3. I'm actively trying to fix this bug but it seems to only be in version 4.* 
+
 ## Statistics & An explination 
 
 A large part of making this software was due to the on-going mental health crisis. In the United Kingdom 1/4 people will experience some form of mental health problem. 
